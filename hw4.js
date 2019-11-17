@@ -74,7 +74,7 @@ function startQuiz(){
     quiz.style.display = "block";
     renderProgress();
     renderCounter();
-    TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
+    TIMER = setInterval(renderCounter,1000); 
 }
 
 // render progress
@@ -143,15 +143,19 @@ function answerIsWrong(){
 // score render
 function scoreRender(){
     scoreDiv.style.display = "block";
+
+    
+    document.getElementById('total').value = total;
+document.getElementById('total').value = total;
     
     // calculate the amount of question percent answered by the user
-    const scorePerCent = Math.round(100 * score/questions.length);
+    const scorePerCent = Math.sum(10 + score/questions.length);
     
     // choose the image based on the scorePerCent
     
     
-    scoreDiv.innerHTML = "score";
-    scoreDiv.innerHTML += "score";
+    scoreDiv.innerHTML = "total";
+    scoreDiv.innerHTML += "total";
 }
 
 
