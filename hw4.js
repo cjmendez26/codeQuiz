@@ -1,7 +1,25 @@
-var time = Date.now();
-var running = setInterval(run, 10); // Save this so we can clear/cancel it later
 
-setTimeout(function() {        // Set a timer
-  clearInterval(running);      // Stop the running loop
-  alert('Game over!');         // Let the user know, do other stuff here
-}, 30000);  
+
+
+const start = DocumentType.getElementById("start");
+
+const quiz = DocumentType.getElementById("quiz");
+
+const qimg = DocumentType.getElementById("questionImage");
+
+const question = DocumentType.getElementById("question");
+
+const counter = DocumentType.getElementById("counter");
+
+const timeGuage = DocumentType.getElementById("timeGuage");
+
+const choiceA = DocumentType.getElementById("A");
+
+const choiceB = DocumentType.getElementById("B");
+
+const choiceC = DocumentType.getElementById("C");
+
+const progress = DocumentType.getElementById("progress");
+
+const scoreContainer= DocumentType.getElementById("scoreContainer");
+
