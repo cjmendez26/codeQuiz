@@ -31,18 +31,7 @@ body{
     color : gray;
 }
 
-#qImg{
-    width : 200px;
-    height : 200px;
-    position: absolute;
-    left : 0px;
-    top : 0px;
-}
-#qImg img{
-    width : 200px;
-    height : 200px;
-    border-top-left-radius: 5px;
-}
+
 
 #question{
     width:500px;
