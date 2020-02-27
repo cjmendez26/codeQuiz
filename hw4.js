@@ -12,7 +12,7 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
-// Qusetions with choice answers
+// Questions with choice answers
 let questions=[
   
   { question:"Which famous scientist introduced the idea of natural selection?",
@@ -146,12 +146,12 @@ function scoreRender(){
 
     
     document.getElementById('total').value = total;
-document.getElementById('total').value = total;
+
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.sum(10 + score/questions.length);
     
-    // choose the image based on the scorePerCent
+    
     
     
     scoreDiv.innerHTML = "total";
@@ -159,7 +159,7 @@ document.getElementById('total').value = total;
 }
 
 
-}
+
 
 
 
